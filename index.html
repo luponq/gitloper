@@ -2,26 +2,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Documentic</title>
+    <title>Document</title>
     <link rel="stylesheet" href="C:\Users\79281\OneDrive\Рабочий стол\dom_trenya\stil.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 </head>
 <body>
 
     <div id="some-block"><h1>Hello</h1></div>
-    <div>Text1</div>
-    <div>Text2</div>
-    <div>Text3</div>
+    <div><h5>Text1</h5></div>
+    <div><h5>Text2</h5></div>
+    <div><h5>Text3</h5></div>
 
-    <p onclick="this.innerHTML = 'Hoba'; ">Test little text</p>
-
+    <h4 onclick="this.innerHTML = 'obman'; ">Test little text</h4>
+    
     <input type="button" value="Change 1" onclick="changeSingle(el_1)">
-    <input type="button" value="Change 2" onclick="changeCollection(el_2)">
+    <input type="button" value="Change 2" onclick="changeCollection(divs)">
+    <input type="text" id="mytext">
+    
+    <h3 id="time">Итог - <div id="cold"></div> </h3>
+    <P id="demo"></P>
 
-    <script src="script.js"></script>
+    <script src="massive.js"></script>
+    <script src="dom.js"></script>
+    <script src="push_sms.js"></script>
+
 </body>
 </html>
 

@@ -3,10 +3,14 @@ p {
 }
 
 div {
-    background-color: coral;
+    background-color: rgb(30, 178, 197);
 }
 
 input {
     color: deepskyblue;
-    background-color: darkorange;
+    background-color: rgb(89, 0, 255);
+}
+
+h4 {
+    color: teal;
 }
