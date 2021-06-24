@@ -1,5 +1,6 @@
 var el_1 = document.getElementById("some-block")
 var el_2 = document.getElementsByTagName("divs")
+var divs = document.getElementsByTagName("div")
 
 el_1.style.color = "rgb(161, 95, 223)"
 

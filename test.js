@@ -7,4 +7,6 @@ textElement.innerHTML =
     `<p>$(textElementContent)</p> <p>Live, and work in
     your free time</p>`;
 
+
+    
 console.log(textElement.innerHTML);
