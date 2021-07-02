@@ -49,9 +49,17 @@ let txt = ""
 // Вот как надо было. data - это массив в которoм находятся объекты Object. Ниже показан пример итерации по массиву
     data.forEach(function(item, btn) {
         // в txt передаем значение ключей объектов
-        txt += item.id + " " + " ___ " + " [ " + item.first_name + " ] " + "<button type='buttom'>" + item.first_name + " </button>" + "<p></p>";
+        txt += item.id + " " + " ___ " + " [ " + item.first_name + " ] " + " _ " + item.first_name + "" + "<p></p>";
     });
-    
 
-//document.getElementById("demo").innerHTML = txt;
-document.getElementById("imp").innerHTML = txt;
+function knoup() {
+    document.getElementById("tube").innerHTML = data
+}
+
+const hope = data.innerHTML
+console.log(hope)
+
+data.innerHTML = `kok`
+
+document.getElementById("demo").innerHTML = txt;
+//document.getElementById("imp").innerHTML = txt;
