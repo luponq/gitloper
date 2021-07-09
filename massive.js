@@ -53,11 +53,11 @@ let txt = ""
     });
 
 function knoup() {
-    document.getElementById("tube").innerHTML = data
+    document.getElementById("tube").innerHTML = hope
 }
 
 const hope = data.innerHTML
-console.log(hope)
+//console.log(hope)
 
 data.innerHTML = `kok`
 
