@@ -43,8 +43,6 @@ const data = [
     },
 ]
 
-//let infa = ""
-
 let txt = ""
 // Вот как надо было. data - это массив в которoм находятся объекты Object. Ниже показан пример итерации по массиву
     data.forEach(function(item, btn) {
